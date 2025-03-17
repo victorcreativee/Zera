@@ -1,0 +1,23 @@
+body.light-theme {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #181818;
+    color: #fff;
+}
+
+nav {
+    background-color: #0078ff;
+    padding: 10px;
+    text-align: center;
+}
+
+button#theme-toggle {
+    background: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
