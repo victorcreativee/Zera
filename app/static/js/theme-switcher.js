@@ -3,7 +3,6 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     body.classList.toggle('light-theme');
     body.classList.toggle('dark-theme');
 
-    // Save preference in local storage
     const theme = body.classList.contains('dark-theme') ? 'dark-theme' : 'light-theme';
     localStorage.setItem('theme', theme);
 });

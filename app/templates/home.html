@@ -1,6 +1,33 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Welcome to the ZERA Platform!</h1>
-<p>Switch between Dark and Light mode for a better experience.</p>
+<div class="features-section">
+    <h2>Why Join ZERA Platform?</h2>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="/static/images/authentic_reviews.jpg" alt="Authentic Reviews">
+            <h3>Authentic Reviews</h3>
+            <p>Discover honest feedback from real users and connect with trusted brands.</p>
+        </div>
+
+        <div class="card">
+            <img src="/static/images/earn_rewards.jpg" alt="Earn Rewards">
+            <h3>Earn Rewards</h3>
+            <p>Get paid for sharing valuable insights and improving product experiences.</p>
+        </div>
+
+        <div class="card">
+            <img src="/static/images/community.jpg" alt="Community Connection">
+            <h3>Join the Community</h3>
+            <p>Collaborate with like-minded individuals and build meaningful connections.</p>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section">
+    <h2>Ready to Join ZERA Platform?</h2>
+    <p>Sign up today and start sharing your insights.</p>
+    <a href="/register" class="cta-button">Get Started Now</a>
+</div>
 {% endblock %}
